@@ -7,16 +7,6 @@ Let's take an example, my organization is building an enterprise chatbot for the
 
 Think of MCP Servers as the middleware with a standard and open API specification which talks to various different tools or databases or data repositories and get the required data to your client or AI application. How does it help ? Now the same developer using MCP servers for each tool or data store will just have to learn and use the MCP API specification in building its Agentic AI workflow. The tool specific API and data retrieval logic is left to MCP servers. 
 
-In an effort to learn and build a simplistic MCP Server myself , I built a document search chatbot which looks for my documents in google drive, gmail, my outlook or my local folders. The structure of my code looks like below:
-
-~/docsearch-mcpdemo/
-├── main.py # Streamlit app for the chatbot UI
-├── mcp/
-│ └── google_drive_server.py # FastAPI server for Google Drive, Gmail, and local search
-├── requirements.txt # Python dependencies
-├── credentials.json # Google API OAuth credentials
-├── token.json # Google API authentication token (generated)
-└── documents/ # Local folder for test files (e.g., patient_data.csv)
-
+In an effort to learn and build a simplistic MCP Server myself , I built a document search chatbot which looks for my documents in google drive, gmail, my outlook or my local folders. 
 
 PS: Almost all the code was generated using LLMs. 
