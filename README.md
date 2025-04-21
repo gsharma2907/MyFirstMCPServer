@@ -10,3 +10,5 @@ Think of MCP Servers as the middleware with a standard and open API specificatio
 In an effort to learn and build a simplistic MCP Server myself , I built a document search chatbot which looks for my documents in google drive, gmail, my outlook or my local folders. 
 
 PS: Almost all the code was generated using LLMs. 
+
+To enable google APIs for drive access and downloading credentials.json , refer - https://developers.google.com/workspace/drive/api/quickstart/python
