@@ -1,5 +1,5 @@
 **Building my First MCP Server**
-**And the fun of vibe coding**
+(**And the fun of vibe coding**)
 
 There is so much hype about Anthropic's Model Context Protocol(MCP) Server for last few days and today I tried to build my own. But first let's understand what is MCP and why was it needed.
 
